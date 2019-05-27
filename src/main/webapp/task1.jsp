@@ -12,17 +12,17 @@
     <title>Title</title>
 </head>
 <body>
-<form action="task1.jsp" method="post">
+<form action="task1" method="post">
     <input type="text" name="company" value="company name">
     <input type="submit" value="filter">
 </form>
 <table>
-    <thead>
+    <thread>
         <tr>
             <th>Product</th>
             <th>Company</th>
         </tr>
-    </thead>
+    </thread>
     <tbody>
     <c:forEach var = "t1q" items="${task1Result}">
         <tr>
